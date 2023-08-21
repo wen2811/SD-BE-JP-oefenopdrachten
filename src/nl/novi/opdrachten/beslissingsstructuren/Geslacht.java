@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Geslacht {
     public static void main(String[] args) {
-        Scanner userInputScanner = new Scanner(System.in);
+        Scanner userInputScanner = new Scanner(System.in) ;
 
         System.out.println("Wat is uw geslacht?");
         String geslacht = userInputScanner.nextLine();
